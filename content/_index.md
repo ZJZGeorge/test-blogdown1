@@ -1,23 +1,21 @@
 ---
-title: "Make the Web Fun Again"
-author: "Fredrik Jonsson"
+title: "Home"
+author: "Zhou George"
 
 ---
 
-# Hugo
+# PsychoR 团队介绍
 
-## Make the Web Fun Again
+## 团队简介
 
-Introducing Hugo, a new idea for making website creation simple again. Hugo works flexibly with many formats, and is ideal for blogs, docs, portfolios and much more. Hugo’s speed fosters creativity—it makes building a website fun again.
+PsychoR 团队是一个以数据分析技术为导向，致力于为心理学科研工作，提供数据分析与编程相关的培训与服务的科研团队。团队成员有多年心理学专业的数据分析经验，同时与国内的一些高校的心理学专业、统计学专业、信号分析专业以及医学专业的学者有稳定的合作关系。团队内对自动化数据获取、常见的统计模型、机器学习方法与结果可视化均有一定的技术积累和经验，能够解决大多数心理学数据分析问题。团队成员由心理学、统计学的硕士、博士构成，能够准确理解心理学相关的科研需求，为您的科研团队选择最符合您所做研究的方法，给您解决您在科研当中所遇到的所有数据分析问题。
 
-## Run Anywhere
+## 团队提供的服务
 
-Hugo is quite possibly the easiest software to install you’ve ever used: simply download and run! Hugo doesn’t depend on administrative privileges, databases, runtimes, interpreters or external libraries. Sites built with Hugo can be deployed on S3, GitHub Pages, Dropbox or any web host.
-
-## Fast & Powerful
-
-Hugo is designed for speed and performance. Great care has been taken to ensure build time with Hugo is as short as possible. We’re talking milliseconds to build your entire site—for most setups!
-
-## Flexible
-
-Hugo is designed to work the way you do. Organize your content however you want with any URL structure. Group your content using your own indexes and categories. Define your own metadata in any format: YAML, TOML or JSON. Best of all, Hugo handles all these variations with virtually no configuration. Hugo just works.
+- R、Python、Matlab 的基本操作培训，并提供在心理学研究场景中的应用示例
+- 对眼动研究、近红外脑成像研究，结合现有数据分析技术提供实验设计建议
+- 根据实证研究实验设计定制化编制刺激呈现程序，可使用的工具包括 Matlab、 Python、E-Prime、SR-Research Experiment Builder
+- 网络数据的抓取与预处理
+- 研究数据的预处理与清理工作
+- 调查研究与实证研究的数据处理分析
+- 对已有的大量数据提供机器学习、人工智能算法的解决方案，并与我们的合作伙伴一起为您的科研成果向应用产品转化提供支持
