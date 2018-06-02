@@ -1,0 +1,38 @@
+---
+title: Demo
+author: Zhou_George
+date: '2018-06-02'
+slug: demo
+categories:
+  - R
+tags:
+  - R Markdown
+lastmod: '2018-06-02T17:28:35+08:00'
+---
+
+`iris` is a data frame with 150 cases (rows) and 5 variables (columns) named Sepal.Length, Sepal.Width, Petal.Length, Petal.Width, and Species. 
+
+The data were collected by Anderson, Edgar (1935). The irises of the Gaspe Peninsula, Bulletin of the American Iris Society, 59, 2–5.
+
+The detail of the iris data frame is below. 
+```{r iris, echo = FALSE} 
+head(iris)
+```
+
+The pieplot of iris is below.
+```{r library, echo=FALSE, warning=FALSE}
+library(ggplot2)
+library(plyr)
+```
+
+
+```{r pie, echo = FALSE}
+dt <- count(iris$Species)
+names(dt) <- c("Species", "freq")
+ggplot(dt, aes(x = "", y = freq, fill = Species)) + 
+  geom_bar(stat = "identity", width = 1) + 
+  coord_polar(theta = "y") + 
+  labs(x = "", y = "", title = "")   ## 将标签设为空
+```
+
+
