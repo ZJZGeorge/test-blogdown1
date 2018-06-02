@@ -1,6 +1,0 @@
-theme = "hugo-theme-zen"
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "R-review"
-
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
