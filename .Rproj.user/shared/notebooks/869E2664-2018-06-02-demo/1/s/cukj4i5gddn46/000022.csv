@@ -1,8 +1,0 @@
-"0","library(ggplot2)"
-"0","library(plyr)"
-"0","dt <- count(iris$Species)"
-"0","names(dt) <- c(""Species"", ""freq"")"
-"0","ggplot(dt, aes(x = """", y = freq, fill = Species)) + "
-"0","  geom_bar(stat = ""identity"", width = 1) + "
-"0","  coord_polar(theta = ""y"") + "
-"0","  labs(x = """", y = """", title = """")   ## 将标签设为空"
