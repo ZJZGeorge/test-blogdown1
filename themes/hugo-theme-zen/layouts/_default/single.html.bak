@@ -13,7 +13,7 @@
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
 <header>
 {{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . }}{{ end -}}
-
+{{ if .Params.tags }}{{ partial "tags.html" . }}{{ end -}}
 </header>
 <div class="content">
 {{ .Content }}
